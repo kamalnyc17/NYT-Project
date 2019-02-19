@@ -11,18 +11,20 @@
     <title>New York Times Search</title>
 
     <!-- linking stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="flex-container">
-        <div class="heading-text">
+    <div class="flex-container  d-inline-flex p-2">
+        <div class="heading-text  d-inline-flex p-2">
+            <img src="assets/images/NYT Logo.jpg" class="logo">
             <p class="headingtextP">New York Times Search</p>
         </div>
-        <div class="search-box">
+        <div class="search-box  d-inline-flex p-2">
             <div class="section-head">
-                <p class="subheading">Search Parameters</p>
+                <p class="subheading"><img src="assets/images/parameters.png" class="small-icon"> Search Parameters</p>
             </div>
             <form>
                 <label>Search Term:</label><br>
@@ -33,13 +35,13 @@
                 <input type="text" id="startYear"><br>
                 <label>End Year (Optional)</label><br>
                 <input type="text" id="endYear"><br>
-                <button type="button" id="search">Search</button>
-                <button type="button" id="clearSearch">Clear Search</button><br>
+                <button type="button" id="search"><img src="assets/images/search.png" class="small-icon"> Search</button>
+                <button type="button" id="clearSearch"><img src="assets/images/trash.png" class="small-icon"> Clear Search</button><br>
             </form>
         </div>
-        <div class="top-articles">
+        <div class="top-articles  d-inline-flex p-2">
             <div class="section-head">
-                <p class="subheading">Top Articles</p>
+                <p class="subheading"><img src="assets/images/results.png" class="small-icon"> Top Articles</p>
             </div>
             <div class="result"></div>
         </div>
