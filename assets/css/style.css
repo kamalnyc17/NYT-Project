@@ -8,7 +8,6 @@ body {
 .logo {
     height: 40px;
     width: 40px;
-    display: inline-block;
 }
 .small-icon {
     height: 15px;
@@ -31,9 +30,8 @@ button {
 .headingtextP {
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 36px;
+    font-size: 56px;
     font-weight: bold;
-    display: inline-block;
 }
 .search-box,
 .top-articles {
